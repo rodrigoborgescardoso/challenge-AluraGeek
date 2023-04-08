@@ -1,0 +1,15 @@
+:root {
+    --bg-branco: #F5F5F5;
+    --bg-azul: #EAF2FD;
+    --link-azul: #2A7AE4;
+    --texto-padrao: #464646;
+    --branco: #FFFFFF;
+    
+    --fonte-padrao: 'Raleway', sans-serif;
+}
+
+body {
+    color: var(--texto-padrao);
+    font-family: var(--fonte-padrao);
+    background-color: var(--bg-branco);
+}
