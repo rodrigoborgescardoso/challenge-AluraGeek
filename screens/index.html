@@ -21,6 +21,20 @@
         <link rel="stylesheet" href="../assets/css/banner/banner-titulo.css">
         <link rel="stylesheet" href="../assets/css/banner/banner-descricao.css">
         <link rel="stylesheet" href="../assets/css/banner/banner-botao.css">
+
+        <link rel="stylesheet" href="../assets/css/rodapeContainer.css">
+        <link rel="stylesheet" href="../assets/css/rodapeInterativo.css">
+        <link rel="stylesheet" href="../assets/css/menu/menu.css">
+        <link rel="stylesheet" href="../assets/css/menu/menu-lista.css">
+        <link rel="stylesheet" href="../assets/css/menu/menu-item.css">
+        <link rel="stylesheet" href="../assets/css/menu/menu-link.css">
+        <link rel="stylesheet" href="../assets/css/formulario/formulario.css">
+        <link rel="stylesheet" href="../assets/css/formulario/formulario-titulo.css">
+        <link rel="stylesheet" href="../assets/css/formulario/formulario-inputContainer.css">
+        <link rel="stylesheet" href="../assets/css/formulario/formulario-input.css">
+        <link rel="stylesheet" href="../assets/css/formulario/formulario-invalido.css">
+        <link rel="stylesheet" href="../assets/css/formulario/formulario-botao.css">
+        <link rel="stylesheet" href="../assets/css/rodape.css">
         <title>AluraGeek</title>
     </head>
     <body>
@@ -42,6 +56,38 @@
                 </div>
                 <button class="banner__botao botao-azul" data-botao="banner">Ver Consoles</button>
             </section>
+
+            <footer class="rodape-container">
+                <section class="rodape-interativo">
+                    <nav class="menu">
+                        <img src="../assets/images/logo.png" alt="Logo AluraGeek">
+                        <ul class="menu__lista">
+                            <li class="menu__item"><a href="#" class="menu__link">Quem somos nós</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Política de privacidade</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Programa fidelidade</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Nossas lojas</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Quero ser franqueado</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Anuncie aqui</a></li>
+                        </ul>
+                    </nav>
+                    <form action="" class="formulario">
+                        <h2 class="formulario__titulo">Fale conosco</h2>
+                        <div class="formulario__input-container">
+                            <input class="formulario__input" type="text" name="nome" id="nome" placeholder="Nome" maxlength="40" data-form="nome" required>
+                            <span class="formulario__invalido">Campo inválido!</span>
+                        </div>
+                        <div class="formulario__input-container">
+                            <textarea class="formulario__input formulario__input--textarea" name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Escreva sua mensagem" maxlength="120" data-form="mensagem" required></textarea>
+                            <span class="formulario__invalido">Campo inválido!</span>
+                        </div>
+                        <button class="formulario__botao botao-azul">Enviar mensagem</button>
+                    </form>
+                </section>
+                <div class="rodape">
+                    <p>Desenvolvido por Rodrigo Borges Cardoso<br>2023</p>
+                </div>
+            </footer>
+            
         </div>
     </body>
 </html>

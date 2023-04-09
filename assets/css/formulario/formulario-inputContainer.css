@@ -1,0 +1,25 @@
+.formulario__input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario__input-container--invalido .formulario__invalido {
+        color: #FF0000;
+        display: block;
+        font-size: 0.875rem;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 1.1875rem;
+        margin-bottom: 0.5rem;
+        margin-top: 0.2rem;
+}
+
+.formulario__input-container--invalido .formulario__input {
+        border: 1px solid #FF0000;
+        margin: 0;
+}
+
+.formulario__input-container--invalido .formulario__input::placeholder {
+    color: #FF0000;
+    font-style: italic;
+}

@@ -1,0 +1,19 @@
+.formulario {
+    margin: auto;
+    max-width: 328px;
+}
+
+@media screen and (min-width: 768px) {
+    .formulario {
+        margin: 0;
+        max-width: 434px;
+        min-width: 434px;        
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .formulario {
+        max-width: 560px;
+        min-width: 560px;        
+    }
+}

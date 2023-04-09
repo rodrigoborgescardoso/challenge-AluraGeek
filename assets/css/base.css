@@ -5,11 +5,11 @@
     --texto-padrao: #464646;
     --branco: #FFFFFF;
     
-    --fonte-padrao: 'Raleway', sans-serif;
+    --font-padrao: 'Raleway', sans-serif;
 }
 
 body {
     color: var(--texto-padrao);
-    font-family: var(--fonte-padrao);
+    font-family: var(--font-padrao);
     background-color: var(--bg-branco);
 }

@@ -1,0 +1,30 @@
+.formulario__input {
+    background-color: var(--branco);
+    border: none;
+    border-bottom: 1px solid #C8C8C8;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: var(--font-padrao);
+    font-size: 1rem;
+    font-weight: 400;
+    height: 56px;
+    line-height: 1.25rem;
+    margin: 0.5rem 0;
+    padding: 0 0.75rem;
+}
+
+.formulario__input--textarea {
+    height: 82px;
+    padding-top: 1rem;
+}
+
+.formulario__input::placeholder {
+    font-family: var(--font-padrao);
+    font-size: 1rem;    
+    font-weight: 400;
+    line-height: 1.25rem;
+}
+
+.formulario__input:focus {
+    outline: none;
+}

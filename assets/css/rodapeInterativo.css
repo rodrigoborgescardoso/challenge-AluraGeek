@@ -1,0 +1,21 @@
+.rodape-interativo {
+    padding: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .rodape-interativo {
+        align-items: flex-start;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        max-width: 704px;
+        padding: 2rem 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .rodape-interativo {
+        max-width: 1136px;
+        padding: 4rem 0;
+    }
+}

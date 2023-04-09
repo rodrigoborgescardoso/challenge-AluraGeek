@@ -1,0 +1,7 @@
+.menu__link {
+    color: var(--texto-padrao);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.1875rem;
+    text-decoration: none;
+}
