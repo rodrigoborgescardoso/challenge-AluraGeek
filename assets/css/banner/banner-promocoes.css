@@ -1,0 +1,22 @@
+.banner__promocoes {
+    left: 1rem;
+    padding-right: 1rem;
+    position: absolute;
+    top: 4.875rem;
+}
+
+@media screen and (min-width: 768px) {
+    .banner__promocoes {
+        left: 2rem;
+        padding-right: 2rem;
+        top: 10.0625rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .banner__promocoes {
+        left: 9.5rem;
+        padding-right: 9.5rem;
+        top: 9.375rem;
+    }
+}

@@ -1,0 +1,17 @@
+.cabecalho__botao-login {
+    width: 8.3125rem;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho__botao-login {
+        order: 1;
+        width: 10.375rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .cabecalho__botao-login {
+        order: 1;
+        width: 11.375rem;
+    }
+}

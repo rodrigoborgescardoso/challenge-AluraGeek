@@ -1,0 +1,18 @@
+.cabecalho__botao-buscar {
+    background: none;
+    background-image: url('../../images/lupa-preta.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1.0625rem;
+    border: none;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho__botao-buscar {
+        background-image: url('../../images/lupa-cinza.png');
+        margin-right: 1rem;
+       
+    }
+}

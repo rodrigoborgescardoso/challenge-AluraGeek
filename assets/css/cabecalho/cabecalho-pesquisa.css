@@ -1,0 +1,8 @@
+@media screen and (min-width: 768px) {
+    .cabecalho__pesquisa {
+        align-items: center;
+        background-color: var(--bg-branco);
+        border-radius: 20px;
+        display: flex;
+    }
+}

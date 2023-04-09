@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../assets/css/reset.css">
         <link rel="stylesheet" href="..//assets/css/base.css">
@@ -10,17 +10,38 @@
         <link rel="stylesheet" href="../assets/css/botoes/botao-transparente.css">
         <link rel="stylesheet" href="../assets/css/container.css">
         <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho.css">    
+        <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-logo.css">
+        <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-botaoLogin.css">
+        <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-pesquisa.css">
+        <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-input.css">
+        <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-botaoBuscar.css">
+        <link rel="stylesheet" href="../assets/css/banner/banner.css">
+        <link rel="stylesheet" href="../assets/css/banner/banner-imagem.css">
+        <link rel="stylesheet" href="../assets/css/banner/banner-promocoes.css">
+        <link rel="stylesheet" href="../assets/css/banner/banner-titulo.css">
+        <link rel="stylesheet" href="../assets/css/banner/banner-descricao.css">
+        <link rel="stylesheet" href="../assets/css/banner/banner-botao.css">
         <title>AluraGeek</title>
     </head>
     <body>
         <div class="container">
             <header class="cabecalho">
                 <a href="index.html"><img class="cabecalho__logo" src="../assets/images/logo.png" alt="Logo AluraGeek"></a>
-                <button class="cabecalho__botao botao-transparente">Login</button>
-                <div class="cabecalho__pesquisa">
-                    <input class="cabecalho__input" type="text" name="" id="">
-                </div>
+                <button class="cabecalho__botao-login botao-transparente">Login</button>
+                <form class="cabecalho__pesquisa" action="">
+                    <input class="cabecalho__input" type="text" name="" id="" placeholder="O que deseja encontrar?">
+                    <button class="cabecalho__botao-buscar"></button>
+                </form>
             </header>
+
+            <section class="banner">
+                <div class="banner__imagem"></div>
+                <div class="banner__promocoes">
+                    <h2 class="banner__titulo">Dezembro Promocional</h2>
+                    <p class="banner__descricao">Produtos selecionados com 33% de desconto</p>
+                </div>
+                <button class="banner__botao botao-azul" data-botao="banner">Ver Consoles</button>
+            </section>
         </div>
     </body>
 </html>
