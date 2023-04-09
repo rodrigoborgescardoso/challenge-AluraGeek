@@ -5,4 +5,8 @@
         border-radius: 20px;
         display: flex;
     }
+
+    .cabecalho__pesquisa--sem-botao {
+        margin-left: 2rem;
+    }
 }

@@ -10,6 +10,10 @@
     .cabecalho {
         padding: 1rem 2rem;
     }
+
+    .cabecalho--sem-botao {
+        justify-content: flex-start;
+    }
 }
 
 @media screen and (min-width: 1440px) {

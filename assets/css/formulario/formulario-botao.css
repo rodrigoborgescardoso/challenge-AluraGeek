@@ -1,3 +1,14 @@
 .formulario__botao {
     margin-bottom: 1rem;
 }
+
+.formulario-botao--login {
+    margin-top: 0.5rem;
+    width: 6.8125rem;
+}
+
+@media screen and (min-width: 1440px) {
+    .formulario-botao--login {
+        width: 100%;
+    }
+}
