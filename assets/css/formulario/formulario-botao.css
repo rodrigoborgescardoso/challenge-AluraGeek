@@ -2,6 +2,11 @@
     margin-bottom: 1rem;
 }
 
+.formulario__botao--adicionar-produto {
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
 .formulario-botao--login {
     margin-top: 0.5rem;
     width: 6.8125rem;
