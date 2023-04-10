@@ -1,0 +1,23 @@
+.produto__edit {
+    background-color: transparent;
+    border-color: transparent;
+    left: 6.1rem;
+    position: absolute;
+    top: 0.2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .produto__edit {
+        left: 7.6rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .produto__edit {
+        left: 8.3rem;
+    }
+}
+
+.produto__edit:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}

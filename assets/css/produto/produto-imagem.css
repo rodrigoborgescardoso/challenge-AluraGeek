@@ -1,0 +1,16 @@
+.produto__imagem {
+    height: 174px;
+    width: 140px;
+}
+
+@media screen and (min-width: 768px) {
+    .produto__imagem {
+        width: 164px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .produto__imagem {
+        width: 176px;
+    }
+}

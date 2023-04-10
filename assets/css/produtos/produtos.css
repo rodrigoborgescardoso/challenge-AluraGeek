@@ -1,0 +1,11 @@
+.produtos {
+    margin: auto;
+    max-width: 1152px;
+    padding: 2rem 2rem 2rem 1rem;
+}
+
+@media screen and (min-width: 1440px) {
+    .produtos {
+        padding: 4rem 0;
+    }
+}

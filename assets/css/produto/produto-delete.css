@@ -1,0 +1,23 @@
+.produto__delete {
+    background-color: transparent;
+    border-color: transparent;
+    left: 3.6rem;
+    position: absolute;
+    top: 0.2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .produto__delete {
+        left: 5.1rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .produto__delete {
+        left: 5.8rem;
+    }
+}
+
+.produto__delete:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
