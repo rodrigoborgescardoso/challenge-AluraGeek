@@ -13,7 +13,7 @@ formCadastroProduto.addEventListener('submit', async (evento) => {
 
     try {
         await produtoService.cadastraProduto(url, nome, preco, categoria, descricao);
-        window.location.href = "../screens/produtos.html";
+        window.location.href = "../screens/produtosAdmin.html";
     }
     catch(erro) {
         console.log(erro);

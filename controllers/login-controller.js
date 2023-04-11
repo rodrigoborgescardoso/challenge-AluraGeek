@@ -12,7 +12,7 @@ formLogin.addEventListener('submit', (evento) => {
 
     usuarios.forEach(usuario => {
         if(email === usuario.email && senha === usuario.senha) {
-            window.location.href = '../screens/produtos.html';
+            window.location.href = '../screens/produtosAdmin.html';
         } else {
             alert('e-Mail ou Senha inválido!')
         }

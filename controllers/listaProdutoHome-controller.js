@@ -1,7 +1,8 @@
 import { produtoService } from "../services/produto-services.js";
 
 const novoProduto = (url, nome, preco, categoria, descricao, id) => {
-    const card = document.createElement('div');
+    const cardHome = document.createElement('div');
+    cardHome.classList.add('cardHome');
     const conteudo = `
     <div class="produto">
         <img class="produto__imagem" src="${url}" alt="">
@@ -10,9 +11,9 @@ const novoProduto = (url, nome, preco, categoria, descricao, id) => {
         <a href="#" class="produto__link">Ver produto</a>
     </div>
     `
-    card.innerHTML = conteudo;
-    card.dataset.id = id;
-    return card;
+    cardHome.innerHTML = conteudo;
+    cardHome.dataset.id = id;
+    return cardHome;
 }
 
 const produtosContainerStarWars = document.querySelector('[data-produtos="starWars"]');

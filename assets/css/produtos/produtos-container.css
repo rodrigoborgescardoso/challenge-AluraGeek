@@ -1,4 +1,19 @@
-.produtos__container {
+.produtos__container, .produtos__container--home  {
     display: flex;
     flex-wrap: wrap;
+}
+
+.produtos__container--home .cardHome {
+    display: none;
+}
+
+
+.produtos__container--home .cardHome:nth-child(-n+4) {
+    display: block;
+}
+
+@media screen and (min-width: 1440px) {
+    .produtos__container--home .cardHome:nth-child(-n+6) {
+        display: block;
+    }
 }

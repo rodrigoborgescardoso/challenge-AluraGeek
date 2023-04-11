@@ -29,7 +29,7 @@ import { produtoService } from "../services/produto-services.js";
 
         try {
             await produtoService.atualizaProduto(id, inputURL.value, inputNome.value, inputPreco.value, inputCategoria.value, inputDescricao.value);
-            window.location.href='../screens/produtos.html';
+            window.location.href='../screens/produtosAdmin.html';
         }
         catch(erro) {
             console.log(erro);

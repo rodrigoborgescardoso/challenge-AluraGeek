@@ -11,5 +11,5 @@
 body {
     color: var(--texto-padrao);
     font-family: var(--font-padrao);
-    background-color: var(--bg-branco);
+    background-color: #E5E5E5;
 }

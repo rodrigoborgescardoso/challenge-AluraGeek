@@ -1,4 +1,5 @@
 .container {
+    background-color: var(--bg-branco);
     margin: 0 auto;
     max-width: 1440px;
 }
