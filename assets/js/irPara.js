@@ -7,7 +7,7 @@ export const irPara = (botao) => {
 };
 
 const caminho = {
-    login: () => window.location.href = '../screens/login.html',
+    //login: () => window.location.href = '../screens/login.html',
     adicionarProduto: () => window.location.href = '../screens/cadastro-produto.html',
     banner: () => window.location.href = '#consoles'
 };
