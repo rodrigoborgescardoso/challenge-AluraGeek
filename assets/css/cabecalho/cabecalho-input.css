@@ -27,3 +27,7 @@
         width: 24.5625rem;
     }
 }
+
+.cabecalho__input:focus {
+    outline: none;
+}

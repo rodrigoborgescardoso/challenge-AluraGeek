@@ -4,6 +4,10 @@
     left: 6.1rem;
     position: absolute;
     top: 0.2rem;
+    background-image: url('../../images/edit.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-width: 15px;
 }
 
 @media screen and (min-width: 768px) {
@@ -19,5 +23,5 @@
 }
 
 .produto__edit:hover {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.4);
 }

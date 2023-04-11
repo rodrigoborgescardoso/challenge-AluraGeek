@@ -16,7 +16,6 @@
         <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-input.css">
         <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-botaoBuscar.css">
         <link rel="stylesheet" href="../assets/css/cadastroProduto.css">
-
         <link rel="stylesheet" href="../assets/css/rodapeContainer.css">
         <link rel="stylesheet" href="../assets/css/rodapeInterativo.css">
         <link rel="stylesheet" href="../assets/css/menu/menu.css">
@@ -42,9 +41,8 @@
                     <button class="cabecalho__botao-buscar"></button>
                 </form>
             </header>
-
             <section class="cadastro-produto">
-                <form action="" class="formulario--cadastro-produto">
+                <form action="" class="formulario--cadastro-produto" data-form="cadastroProduto">
                     <h2 class="formulario__titulo formulario__titulo--cadastro-produto">Adicionar novo produto</h2>
                     <div class="formulario__input-container">
                         <input class="formulario__input" type="url" name="" id="" placeholder="URL da imagem" data-form="imagem" required>
@@ -59,7 +57,7 @@
                         <span class="formulario__invalido">Campo inválido!</span>
                     </div>
                     <div class="formulario__input-container">
-                        <input class="formulario__input" type="number" name="" id="" placeholder="Preço do produto" data-form="preco" required>
+                        <input class="formulario__input" type="text" name="" id="" placeholder="Preço do produto" data-form="preco" required>
                         <span class="formulario__invalido">Campo inválido!</span>
                     </div>
                     <div class="formulario__input-container">
@@ -69,7 +67,6 @@
                     <button class="formulario__botao--adicionar-produto botao-azul">Adicionar produto</button>
                 </form>
             </section>
-
             <footer class="rodape-container">
                 <section class="rodape-interativo">
                     <nav class="menu">
@@ -100,7 +97,8 @@
                     <p>Desenvolvido por Rodrigo Borges Cardoso<br>2023</p>
                 </div>
             </footer>
-            
         </div>
+        <script type="module" src="../assets/js/pegaElementos.js"></script>
+        <script type="module" src="../controllers/cadastraProduto-controller.js"></script>
     </body>
 </html>

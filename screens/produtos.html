@@ -17,7 +17,6 @@
         <link rel="stylesheet" href="../assets/css/produtos/produtos.css">
         <link rel="stylesheet" href="../assets/css/produtos/produtos-cabecalho.css">
         <link rel="stylesheet" href="../assets/css/produtos/produtos-titulo.css">
-        <link rel="stylesheet" href="../assets/css/produtos/produtos-botao.css">
         <link rel="stylesheet" href="../assets/css/produtos/produtos-container.css">
         <link rel="stylesheet" href="../assets/css/produto/produto.css">
         <link rel="stylesheet" href="../assets/css/produto/produto-botoes.css">
@@ -52,28 +51,14 @@
                     <button class="cabecalho__botao-buscar"></button>
                 </form>
             </header>
-
             <section class="produtos">
                 <div class="produtos__cabecalho">
                     <h2 class="produtos__titulo">Todos os produtos</h2>
-                    <button class="produtos__botao botao-azul">Adicionar produto</button>
+                    <button class="produtos__botao botao-azul" data-botao="adicionarProduto">Adicionar produto</button>
                 </div>
-                <div class="produtos__container">
-                    
-                    <!--<div class="produto">
-                        <div class="produto__botoes">
-                            <button class="produto__delete"><img class="produto__botao-imagem" src="../assets/images/delete.png"></button>
-                            <button class="produto__edit"><img class="produto__botao-imagem" src="../assets/images/edit.png"></button>
-                        </div>
-                        <img class="produto__imagem" src="../assets/images/starwars1.png" alt="">
-                        <p class="produto__nome">Caneca Star Wars</p>
-                        <p class="produto__preco">55,00</p>
-                        <a href="#" class="produto__link">Ver produto</a>
-                    </div>-->
-
+                <div class="produtos__container" data-produtos>
                 </div>
             </section>
-
             <footer class="rodape-container">
                 <section class="rodape-interativo">
                     <nav class="menu">
@@ -104,7 +89,8 @@
                     <p>Desenvolvido por Rodrigo Borges Cardoso<br>2023</p>
                 </div>
             </footer>
-            
         </div>
+        <script type="module" src="../assets/js/pegaElementos.js"></script>
+        <script type="module" src="../controllers/listaProduto-controller.js"></script>
     </body>
 </html>

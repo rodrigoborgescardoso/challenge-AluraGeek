@@ -1,0 +1,148 @@
+{
+  "produtos": [
+    {
+      "url": "https://github.com/rodrigoborgescardoso/challenge-AluraGeek/blob/main/assets/images/starwars1.png?raw=true",
+      "nome": "Caneca Star Wars",
+      "preco": "85,60",
+      "categoria": "Star Wars",
+      "descricao": "Caneca branca",
+      "id": 1
+    },
+    {
+      "url": "https://github.com/rodrigoborgescardoso/challenge-AluraGeek/blob/main/assets/images/starwars2.png?raw=true",
+      "nome": "Figure Star Wars",
+      "preco": "56,50",
+      "categoria": "Star Wars",
+      "descricao": "Nova coleção",
+      "id": 2
+    },
+    {
+      "url": "https://github.com/rodrigoborgescardoso/challenge-AluraGeek/blob/main/assets/images/consoles1.png?raw=true",
+      "nome": "Controle Xbox",
+      "preco": "299.25",
+      "categoria": "Consoles",
+      "descricao": "Controle branco",
+      "id": 3
+    },
+    {
+      "url": "https://github.com/rodrigoborgescardoso/challenge-AluraGeek/blob/main/assets/images/starwars3.png?raw=true",
+      "nome": "Quadro Star Wars",
+      "preco": "30",
+      "categoria": "Star Wars",
+      "descricao": "Quadro pequeno",
+      "id": 4
+    },
+    {
+      "url": "https://github.com/rodrigoborgescardoso/challenge-AluraGeek/blob/main/assets/images/diversos1.png?raw=true",
+      "nome": "Camiseta Atari",
+      "preco": "29.90",
+      "categoria": "Diversos",
+      "descricao": "Camiseta simples",
+      "id": 5
+    },
+    {
+      "url": "https://github.com/rodrigoborgescardoso/challenge-AluraGeek/blob/main/assets/images/diversos2.png?raw=true",
+      "nome": "Camiseta Nintendo",
+      "preco": "35",
+      "categoria": "Diversos",
+      "descricao": "Camiseta estampada",
+      "id": 6
+    },
+    {
+      "url": "https://github.com/rodrigoborgescardoso/challenge-AluraGeek/blob/main/assets/images/consoles2.png?raw=true",
+      "nome": "PlayStation 5",
+      "preco": "3999",
+      "categoria": "Consoles",
+      "descricao": "Console sem jogos",
+      "id": 7
+    },
+    {
+      "url": "https://github.com/rodrigoborgescardoso/challenge-AluraGeek/blob/main/assets/images/starwars4.png?raw=true",
+      "nome": "Fantasia Star Wars",
+      "preco": "230",
+      "categoria": "Star Wars",
+      "descricao": "Fantasia completa",
+      "id": 8
+    },
+    {
+      "url": "https://github.com/rodrigoborgescardoso/challenge-AluraGeek/blob/main/assets/images/consoles3.png?raw=true",
+      "nome": "Console Nintendo",
+      "preco": "599,99",
+      "categoria": "Consoles",
+      "descricao": "Console sem jogos",
+      "id": 9
+    },
+    {
+      "url": "https://github.com/rodrigoborgescardoso/challenge-AluraGeek/blob/main/assets/images/consoles4.png?raw=true",
+      "nome": "Joy-Con Switch",
+      "preco": "599",
+      "categoria": "Consoles",
+      "descricao": "Joy-Con Vermelho e Azul",
+      "id": 10
+    },
+    {
+      "url": "https://github.com/rodrigoborgescardoso/challenge-AluraGeek/blob/main/assets/images/diversos3.png?raw=true",
+      "nome": "Figure Sonic",
+      "preco": "49",
+      "categoria": "Diversos",
+      "descricao": "Coleção 2021",
+      "id": 11
+    },
+    {
+      "url": "https://github.com/rodrigoborgescardoso/challenge-AluraGeek/blob/main/assets/images/diversos4.png?raw=true",
+      "nome": "Rádio-Relógio Retrô",
+      "preco": "55",
+      "categoria": "Diversos",
+      "descricao": "Pilhas vendidas separadamente",
+      "id": 12
+    },
+    {
+      "url": "https://github.com/rodrigoborgescardoso/challenge-AluraGeek/blob/main/assets/images/starwars5.png?raw=true",
+      "nome": "Boneco Star Wars",
+      "preco": "99",
+      "categoria": "Star Wars",
+      "descricao": "Cores variadas",
+      "id": 13
+    },
+    {
+      "url": "https://github.com/rodrigoborgescardoso/challenge-AluraGeek/blob/main/assets/images/starwars6.png?raw=true",
+      "nome": "Fantasia Star Wars",
+      "preco": "299.30",
+      "categoria": "Star Wars",
+      "descricao": "Lançamento",
+      "id": 14
+    },
+    {
+      "url": "https://github.com/rodrigoborgescardoso/challenge-AluraGeek/blob/main/assets/images/consoles5.png?raw=true",
+      "nome": "Console",
+      "preco": "899",
+      "categoria": "Consoles",
+      "descricao": "Nova geração",
+      "id": 15
+    },
+    {
+      "url": "https://github.com/rodrigoborgescardoso/challenge-AluraGeek/blob/main/assets/images/consoles6.png?raw=true",
+      "nome": "Game Boy",
+      "preco": "799",
+      "categoria": "Consoles",
+      "descricao": "Console com 3 jogos",
+      "id": 16
+    },
+    {
+      "url": "https://github.com/rodrigoborgescardoso/challenge-AluraGeek/blob/main/assets/images/diversos5.png?raw=true",
+      "nome": "Óculos RV",
+      "preco": "479",
+      "categoria": "Diversos",
+      "descricao": "Compatível com vários consoles",
+      "id": 17
+    },
+    {
+      "url": "https://github.com/rodrigoborgescardoso/challenge-AluraGeek/blob/main/assets/images/diversos6.png?raw=true",
+      "nome": "Fantasia Pokémon",
+      "preco": "229",
+      "categoria": "Diversos",
+      "descricao": "Fantasia para crianças",
+      "id": 18
+    }
+  ]
+}

@@ -8,4 +8,8 @@
     .produtos {
         padding: 4rem 0;
     }
+
+    .produtos--home {
+        padding: 2rem 0;
+    }
 }
